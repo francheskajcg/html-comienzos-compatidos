@@ -1,0 +1,78 @@
+.products{
+    text-align: center;
+    background-color: #d9e4cc;  
+    padding-block: 1.5rem;
+
+@media (min-width:768px){
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-inline: 8rem;
+} 
+}
+
+.text__info{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: bold; 
+    color: #626262;
+
+@media (min-width:768px){
+    grid-column: span 3;
+}
+}
+
+.text__back__to__school{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 20px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 0.5rem;
+
+@media (min-width:768px){
+    font-size: 28px;
+    grid-column: span 3;
+}
+}
+
+.image-product{
+    width: 114px;
+    border-radius: 50%;
+    box-shadow: 0px 6px 6px rgba(0,0,0,0.25);
+    margin-top: 1.25rem;
+    margin-bottom: 0.2rem;
+}
+
+.text__product{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 14px; 
+    font-weight: bold;
+
+@media (min-width:768px){
+        font-size: 18px;
+}
+}
+
+.btn__start__now{
+    width: 184px;
+    height: 47.3px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: #6c933e;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+@media (min-width:768px){
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}   
+}
+
+.btn__store{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
